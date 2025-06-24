@@ -1,7 +1,7 @@
 // 开发端口
-export const PORT = 1314
+export const PORT = 1999
 // 请求接口地址
-export const VITE_PROXY_HTTP = 'http://localhost:1314'
+export const VITE_PROXY_HTTP = 'http://localhost:1999'
 // 开启 mock
 export const VITE_APP_MOCK = true
 // 开启包依赖分析 可视化

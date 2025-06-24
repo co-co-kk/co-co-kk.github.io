@@ -24,13 +24,15 @@ function Home(): JSX.Element {
   const onClick = (file) => {
     navigate(file.path)
   }
+  console.log(AUTHOR, 'AUTHORAUTHOR');
+  
 
   return (
     <Layout className={styles.layout}>
       <Sider className={classNames(styles.sider, styles.homeSiderWidth)}>
         <div className={styles.avatar} />
         <h1>{AUTHOR}</h1>
-        <h5>实迷途其未远，觉今是而昨非</h5>
+        <h5>路虽远行则将至，事虽难做则必成 {AUTHOR}</h5>
         <Divider orientation="center"> 技术栈</Divider>
         vite + typescript + mdx + mobx，纵享vite构建带来的丝滑开发体验。
         <Divider orientation="center">适用场景</Divider>

@@ -22,7 +22,7 @@ const fixedMenus = [
   {
     key: 'github',
     title: 'github',
-    url: 'https://github.com/yaolx/yaolx.github.io'
+    url: 'https://github.com/co-co-kk'
   },
   {
     key: 'md/about',
